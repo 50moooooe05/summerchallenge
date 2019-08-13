@@ -4,10 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:50moooooe05/summerchallenge.git",
   "license": "MIT",
-  "dependencies": {
-    "parcel": "^1.12.3"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "parcel-bundler": "^1.12.3",
     "sass": "^1.22.9"
   }
 }

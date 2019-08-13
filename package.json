@@ -1,0 +1,13 @@
+{
+  "name": "summerchallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:50moooooe05/summerchallenge.git",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "sass": "^1.22.9"
+  }
+}

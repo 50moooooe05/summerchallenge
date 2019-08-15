@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add sass -D
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js build
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -14,8 +14,12 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+  SyntaxError: /Users/moe/Documents/summerchallenge/package.json: Unexpected string in JSON at position 267
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:315:13
 
 npm manifest: 
   {
@@ -28,6 +32,9 @@ npm manifest:
     "devDependencies": {
       "parcel-bundler": "^1.12.3",
       "sass": "^1.22.9"
+    }
+    "scripts": {
+      "build": "parcel build index.html"
     }
   }
 

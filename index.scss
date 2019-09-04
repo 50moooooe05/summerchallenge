@@ -60,6 +60,12 @@ body{
         & li a{
             font-size: 20px;
         }
+        
+        & li a:hover{
+            text-decoration: underline dotted $textblue;
+        }
+
+
     }
 }
 
@@ -78,6 +84,7 @@ body{
             color: $textblue;
             font-family: $font;
             font-size: 25px; 
+            text-decoration: underline solid $pink;
             margin-bottom: 10px;
         }
 
